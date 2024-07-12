@@ -350,7 +350,7 @@ body {
   top: 0;
   left: 0;
   content: attr(data-text);
-  color: #964B00;
+  color: #996666;
   opacity: 0;
   transform: scale(1.5);
   animation: loading07 3s infinite;
