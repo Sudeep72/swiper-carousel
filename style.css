@@ -97,6 +97,7 @@ body {
 @media (max-width:500px) {
   #tranding .tranding-slider {
     height: 56rem;
+    padding-right: 1.75rem;
   }
 }
 
