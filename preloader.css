@@ -331,7 +331,7 @@ body {
   z-index: 1; 
   margin-top: 20px; 
   font-size: 24px;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
 }
 
 
@@ -396,6 +396,15 @@ body {
 }
 .loading07 span:nth-child(15)::after {
   animation-delay: 1.4s;
+}
+.loading07 span:nth-child(16)::after {
+  animation-delay: 1.5s;
+}
+.loading07 span:nth-child(17)::after {
+  animation-delay: 1.6s;
+}
+.loading07 span:nth-child(18)::after {
+  animation-delay: 1.7s;
 }
 
 @keyframes loading07 {
