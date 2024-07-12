@@ -90,13 +90,13 @@ body {
 
 #tranding .tranding-slider {
   height: 66rem;
-  padding: 1.5rem 0.5rem;
+  padding: 2rem 0;
   position: relative;
 }
 
 @media (max-width:500px) {
   #tranding .tranding-slider {
-    height: 60rem;
+    height: 56rem;
   }
 }
 
@@ -112,8 +112,8 @@ body {
     height: 36rem !important;
   }
   .tranding-slide .tranding-slide-img img {
-    width: 33rem !important;
-    height: 47rem !important;
+    width: 30rem !important;
+    height: 44.5rem !important;
   }
 }
 
