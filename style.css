@@ -171,13 +171,13 @@ body {
 }
 
 .tranding-slider-control .swiper-button-next {
-  left: 58% !important;
+  left: 60% !important;
   transform: translateX(-58%) !important;
 }
 
 @media (max-width:990px) {
   .tranding-slider-control .swiper-button-next {
-    left: 70% !important;
+    left: 75% !important;
     transform: translateX(-70%) !important;
   }
 }
@@ -198,7 +198,7 @@ body {
 
 @media (max-width:450px) {
   .tranding-slider-control .swiper-button-prev {
-    left: 20% !important;
+    left: 25% !important;
     transform: translateX(-20%) !important;
   }
 }
