@@ -6,10 +6,52 @@
     <link rel="stylesheet" href="preloader.css" />
     <title>Cookies 24</title>
     <script>
+      function preloadImages(urls, callback) {
+        let loadedCount = 0;
+        const total = urls.length;
+        urls.forEach((url) => {
+          const img = new Image();
+          img.src = url;
+          img.onload = () => {
+            loadedCount++;
+            if (loadedCount === total) {
+              callback();
+            }
+          };
+        });
+      }
+
       function redirectToSecondPage() {
-        setTimeout(function () {
+        const imageUrls = [
+          "./images/Cookies '24_page-0001.jpg",
+          "./images/Cookies '24_page-0002.jpg",
+          "./images/Cookies '24_page-0003.jpg",
+          "./images/Cookies '24_page-0004.jpg",
+          "./images/Cookies '24_page-0005.jpg",
+          "./images/Cookies '24_page-0006.jpg",
+          "./images/Cookies '24_page-0007.jpg",
+          "./images/Cookies '24_page-0008.jpg",
+          "./images/Cookies '24_page-0009.jpg",
+          "./images/Cookies '24_page-0010.jpg",
+          "./images/Cookies '24_page-0011.jpg",
+          "./images/Cookies '24_page-0012.jpg",
+          "./images/Cookies '24_page-0013.jpg",
+          "./images/Cookies '24_page-0014.jpg",
+          "./images/Cookies '24_page-0015.jpg",
+          "./images/Cookies '24_page-0016.jpg",
+          "./images/Cookies '24_page-0017.jpg",
+          "./images/Cookies '24_page-0018.jpg",
+          "./images/Cookies '24_page-0019.jpg",
+          "./images/Cookies '24_page-0020.jpg",
+          "./images/Cookies '24_page-0021.jpg",
+          "./images/Cookies '24_page-0022.jpg",
+          "./images/Cookies '24_page-0023.jpg",
+          "./images/Cookies '24_page-0024.jpg"
+        ];
+
+        preloadImages(imageUrls, function() {
           window.location.href = "main.html";
-        }, 5000);
+        });
       }
     </script>
   </head>
