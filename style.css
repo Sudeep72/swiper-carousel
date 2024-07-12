@@ -133,28 +133,12 @@ body {
   bottom: 0;
 }
 
-.tranding-slide-content .food-price {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  color: var(--white);
-}
 
 .tranding-slide-content .tranding-slide-content-bottom {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
   color: var(--white);
-}
-
-.food-rating {
-  padding-top: 1rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.rating ion-icon {
-  color: var(--primary);
 }
 
 .swiper-slide-shadow-left,
@@ -242,4 +226,31 @@ body {
 
 .swiper-slide-active .tranding-slide-img img {
   filter: none;
+}
+
+.download-button {
+  position: absolute;
+  left: 51%;
+  transform: translateX(-50%);
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-button ion-icon {
+  font-size: 2rem;
+  color: #000;
+}
+
+@media (max-width: 500px) {
+  .download-button{
+    left:52.5%;
+  }
+  .download-button ion-icon {
+    font-size: 2rem;
+  }
 }
