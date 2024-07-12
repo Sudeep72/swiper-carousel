@@ -234,3 +234,11 @@ body {
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+
+.tranding-slide:not(.swiper-slide-active) {
+  filter: blur(3px); 
+}
+
+.swiper-slide-active .tranding-slide-img img {
+  filter: none;
+}
